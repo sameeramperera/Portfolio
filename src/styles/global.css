@@ -135,6 +135,9 @@
   .prose-body pre code {
     @apply border-0 bg-transparent p-0;
   }
+  .prose-body img {
+    @apply h-auto max-w-full rounded border border-line;
+  }
   .prose-body blockquote {
     @apply border-l-2 border-accent pl-4 text-muted;
   }
